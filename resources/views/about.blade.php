@@ -5,7 +5,7 @@
         <div class="container">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-[60px] xl:gap-[134px]">
                 <img class="mx-auto" src="{{asset('assets/images/img1.jpg')}}" alt="about me">
-                <div class="font-bold font-Syne leading-none flex flex-wrap flex-col gap-y-2">
+                <div class="font-bold font-Syne leading-none flex flex-wrap flex-col gap-y-2"> <br>
                     <span class="text-orange text-xl">About me</span>
                     <h3 class="text-black-800 text-4xl lg:text-5xl xl:text-[64px] tracking-[-1.5px]">
                         Anesu Gandiwa

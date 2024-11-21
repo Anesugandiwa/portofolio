@@ -2,6 +2,7 @@
 @section('body')
     <!-- Blog Section Start -->
     <section class="bg-white pt-20 pb-[120px]">
+        <br>
         <div class="container">
 
             <div class="grid grid-cols-12">

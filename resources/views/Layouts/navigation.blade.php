@@ -36,7 +36,7 @@
 
 
                 <!-- Link Start -->
-                <a href="" class="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange md:hover:text-white group text-white">Let’s
+                <a href="{{route('contact')}}" class="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange md:hover:text-white group text-white">Let’s
                     Talk
                     <span class="inline-block ml-3 group-hover:animate-arrow-move-up">
 

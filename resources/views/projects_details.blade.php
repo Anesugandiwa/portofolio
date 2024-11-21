@@ -1,5 +1,5 @@
 @extends('layouts.website')
-@section('body')<br>
+@section('body')
 <!-- Portfolio Section Start -->
 <section class="bg-secondary py-[120px]">
     <div class="container">

@@ -3,6 +3,7 @@
 @section('body')
     <!-- Portfolio Section Start -->
     <section class="bg-white pt-20 pb-[120px]">
+        <br>
         <div class="container mx-auto">
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 lg:col-span-6" data-aos="fade-up">

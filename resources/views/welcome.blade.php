@@ -32,7 +32,7 @@
                     <div class="flex flex-wrap mb-[50px] md:mb-[60px] xl:mb-[70px] 2xl:mb-[80px]">
                         <!-- Link Start -->
                         <span data-aos="fade-right" data-aos-delay="1000">
-            <a href="" class="flex items-center flex-wrap btn-primary mr-2 group">Get in touch
+            <a href="{{route('contact')}}" class="flex items-center flex-wrap btn-primary mr-2 group">Get in touch
               with me
               <span class="inline-block ml-3 group-hover:animate-arrow-move-up">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@
 
                         <!-- Link Start -->
                         <span data-aos="fade-right" data-aos-delay="1200">
-            <a href="" class="flex items-center flex-wrap btn-primary-outline group ">
+            <a href="{{route('projects_details')}}" class="flex items-center flex-wrap btn-primary-outline group ">
               My Work
               <span class="inline-block ml-3 group-hover:animate-arrow-move-up ">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -962,7 +962,7 @@
 
             <div class="col-span-12 mt-12" data-aos="fade-up">
                 <div class="flex group">
-                    <a href="" class="flex items-center justify-center flex-wrap btn-primary grow">
+                    <a href="{{route('projects_details')}}" class="flex items-center justify-center flex-wrap btn-primary grow">
                         View All Project
                         <span class="inline-block ml-3 group-hover:animate-arrow-move-up">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"

@@ -89,6 +89,9 @@
         .hover-color-change:hover h4 {
             color: blue; /* Change the color of <p> and <h4> on hover */
         }
+        img{
+           margin-top: 20px;
+        }
 
 
     </style>
