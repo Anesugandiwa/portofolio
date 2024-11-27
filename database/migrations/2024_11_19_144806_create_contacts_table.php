@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('phone');
+            $table->string('subject');
             $table->string('message');
             $table->string('company')->nullable();
             $table->enum('status', ['unread', 'read', 'archived'])->default('unread');

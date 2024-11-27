@@ -10,6 +10,7 @@ use Inertia\Inertia;
 //});
 Route::get('/', [PagesController::class, 'index'])->name('welcome');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
+Route::post('/contact',[ContactController::class,'store'])->name('contact.store');
 Route::get('/about',[PagesController::class,'about'])->name('about');
 Route::get('/projects_details',[PagesController::class,'projects_details'])->name('projects_details');
 Route::get('/blog',[PagesController::class,'blog'])->name('blog');

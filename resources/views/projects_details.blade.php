@@ -68,7 +68,7 @@
 
         <div class="col-span-12 mt-12" data-aos="fade-up">
             <div class="flex group">
-                <a href="projects.html" class="flex items-center justify-center flex-wrap btn-primary grow">
+                <a href="https://github.com/Anesugandiwa" class="flex items-center justify-center flex-wrap btn-primary grow">
                     View All Project
                     <span class="inline-block ml-3 group-hover:animate-arrow-move-up">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"

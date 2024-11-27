@@ -53,7 +53,7 @@
 
                                 </span>
                             <div class="flex flex-wrap flex-col flex-1">
-                                <span class="text-white">Call us</span>
+                                <span class="text-white">Call Me</span>
                                 <h5 class="text-xl font-bold font-Syne text-white leading-7">+263 7863 10810 | +263
                                     712 895 388
                                 </h5>
@@ -78,15 +78,16 @@
                                 </span>
                             <div class="flex flex-wrap flex-col flex-1">
                                 <span class="text-white">My address</span>
-                                <h5 class="text-xl font-bold font-Syne text-white leading-7">4623 Retreat. Park
-                                    Waterfalls, Harare
+                                <h5 class="text-xl font-bold font-Syne text-white leading-7">3 Anchor House. corner first
+                                    street and Jason Moyo
                                 </h5>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-span-12 lg:col-span-6" data-aos="fade-up" data-aos-delay="300" >
-                    <form method="post" id="contact-form" action=""  class="grid grid-cols-12 gap-[18px]"> @csrf
+                    <form method="post" id="contact-form" action="{{route('contact.store')}}"  class="grid grid-cols-12 gap-[18px]">
+                        @csrf
 
                         <div class="col-span-12 md:col-span-6">
                             <label class="text-sm font-normal font-Inter leading-tight mb-3 block" for="name">Name</label>
