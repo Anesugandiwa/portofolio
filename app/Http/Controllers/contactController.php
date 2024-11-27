@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactNotification;
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use Illuminate\Support\Facades\Mail;
 
 class contactController extends Controller
 {
@@ -33,6 +35,11 @@ class contactController extends Controller
         $contact->message = $request->input('message');
 
         $contact->save();
+        Mail::to('anesugandiwa9@gmail.com')->send(new contactNotification($contact));
+
+
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
+
+
     }
 }
