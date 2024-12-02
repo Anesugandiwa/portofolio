@@ -89,8 +89,25 @@
         .hover-color-change:hover h4 {
             color: blue; /* Change the color of <p> and <h4> on hover */
         }
+        .bg1{
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+
+
+        }
         img{
            margin-top: 20px;
+        }
+        .project{
+            position: absolute ;
+            top:20%;
+            width: 100%;
+            text-align: center;
+
+
+
+
         }
 
 

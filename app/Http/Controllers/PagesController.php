@@ -14,11 +14,11 @@ class PagesController extends Controller
         return view('about');
     }
 
-    public function projects_details()
-    {
-        return view('projects_details');
-
-    }
+//    public function projects_details()
+//    {
+//        return view('projects_details');
+//
+//    }
 
     public function blog(){
         return view('blog');
