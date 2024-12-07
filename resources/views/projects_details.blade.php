@@ -3,7 +3,7 @@
 <!-- Portfolio Section Start -->
 
 <section class="bg-secondary py-[120px]">
-    <img src="{{asset('assets/images/web.jpg')}}" alt="background loading" width="1000" height="300" class="bg1">
+    <img src="{{asset('assets/images/tools.jpg')}}" alt="background loading" width="1000" height="300" class="bg1">
     <div class="project">
         <div class="grid grid-cols-12 gap-6">
             <div class="col-span-12" data-aos="fade-up">

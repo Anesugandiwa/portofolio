@@ -141,8 +141,11 @@
     </section>
     <!-- Hero section end -->
     <!-- Service start -->
+
     <section class="py-[120px]">
+
         <div class="container">
+{{--            <img src="{{asset('assets/images/tools.jpg')}}" alt="my_tools" class="tools">--}}
             <div class="grid grid-cols-12 gap-6 2xl:gap-0 mb-12 items-center" data-aos="fade-up">
                 <div class="col-span-12 lg:col-span-6 xl:col-span-6">
                     <div class="font-bold font-Syne leading-none flex flex-wrap flex-col gap-y-2">

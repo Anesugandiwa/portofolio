@@ -96,6 +96,17 @@
 
 
         }
+        .tools{
+            width:100%;
+            height:auto;
+            opacity:0.6;
+        }
+        .contain{
+            position: absolute;
+
+
+
+        }
         img{
            margin-top: 20px;
         }
