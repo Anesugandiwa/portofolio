@@ -94,7 +94,7 @@
 
 
         <div class="hidden md:block">
-            <img class="absolute top-0 right-0 md:max-w-[420px] lg:max-w-[570px] xl:max-w-[650px] 2xl:max-w-[initial] " id="two" data-aos="fade-left" src="{{asset('assets/images/img2.jpg')}}" alt="hero Image">
+            <img class="absolute top-0 right-0 md:max-w-[420px] lg:max-w-[570px] xl:max-w-[650px] 2xl:max-w-[initial] " id="two" data-aos="fade-left" src="{{asset('assets/images/anes.avif')}}" alt="hero Image">
 
             <a href="">
                 <svg class="absolute bottom-[200px] lg:bottom-[80px] xl:bottom-[80px] right-[40px] lg:right-[150px] xl:right-[150px]" width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">

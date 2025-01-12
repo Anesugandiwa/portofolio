@@ -20,6 +20,7 @@ return new class extends Migration
             $table->date('end_date');
             $table->string('project_url')->nullable();
             $table->string('github_url')->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

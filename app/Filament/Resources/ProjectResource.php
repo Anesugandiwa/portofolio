@@ -6,6 +6,7 @@ use App\Filament\Resources\ProjectResource\Pages;
 use App\Filament\Resources\ProjectResource\RelationManagers;
 use App\Models\Project;
 use Filament\Forms;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -45,6 +46,10 @@ class ProjectResource extends Resource
                 Forms\Components\TextInput::make('github_url')
                     ->label('Github URL')
                     ->nullable(),
+                FileUpload::make('image')
+                    ->image()
+                    ->disk('public')
+                    ->nullable(),
             ]);
     }
 
@@ -59,6 +64,7 @@ class ProjectResource extends Resource
                 Tables\Columns\TextColumn::make('end_date')->label('End Date'),
                 Tables\Columns\TextColumn::make('project_url')->label('Project URL'),
                 Tables\Columns\TextColumn::make('github_url')->label('Github URL'),
+                Tables\Columns\TextColumn::make('image')->label('Image'),
             ])
             ->filters([
                 //
