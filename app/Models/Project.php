@@ -15,7 +15,8 @@ class Project extends Model
         'start_date',
         'end_date',
         'project_url',
-        'github_url'
+        'github_url',
+        'image'
 
     ];
 }

@@ -49,6 +49,7 @@ class ProjectResource extends Resource
                 FileUpload::make('image')
                     ->image()
                     ->disk('public')
+                    ->directory('projects/images')
                     ->nullable(),
             ]);
     }
@@ -64,7 +65,7 @@ class ProjectResource extends Resource
                 Tables\Columns\TextColumn::make('end_date')->label('End Date'),
                 Tables\Columns\TextColumn::make('project_url')->label('Project URL'),
                 Tables\Columns\TextColumn::make('github_url')->label('Github URL'),
-                Tables\Columns\TextColumn::make('image')->label('Image'),
+                Tables\Columns\TextColumn::make('image')->label('Image')->disk('public'),
             ])
             ->filters([
                 //

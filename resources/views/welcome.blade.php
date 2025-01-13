@@ -64,6 +64,8 @@
                     </div>
 
 
+
+
                     <div class="mt-5 sm:mt-0">
                         <ul class="flex flex-wrap gap-x-4 items-center">
                             <li><a href="#" class="text-white hover:text-orange">
@@ -143,20 +145,18 @@
     <!-- Service start -->
 
     <section class="py-[120px]">
-
         <div class="container">
-{{--            <img src="{{asset('assets/images/tools.jpg')}}" alt="my_tools" class="tools">--}}
-            <div class="grid grid-cols-12 gap-6 2xl:gap-0 mb-12 items-center" data-aos="fade-up">
+          <div class="grid grid-cols-12 gap-6 2xl:gap-0 mb-12 items-center" data-aos="fade-up">
                 <div class="col-span-12 lg:col-span-6 xl:col-span-6">
                     <div class="font-bold font-Syne leading-none flex flex-wrap flex-col gap-y-2">
                         <span class="text-orange text-xl">Tools</span>
                         <h3 class="text-black-800 text-4xl lg:text-5xl xl:text-[64px] tracking-[-1.5px] relative before:rounded-full before:bg-primary before:block before:absolute before:top-[2px] before:left-0 before:-z-[1] before:w-[36px] lg:before:w-[48px] xl:before:w-[60px] before:h-[36px] lg:before:h-[48px] xl:before:h-[60px]">
-                            My Tools
+                            My Skills
                         </h3>
                     </div>
 
                 </div>
-                <div class="col-span-12 lg:col-span-6 xl:col-span-6">
+              <div class="col-span-12 lg:col-span-6 xl:col-span-6">
                     <p class=" paragraph">
                         I have deep enthusiasim for creating innovative software and hardware solution that empower individuals
                         to focus on more challenging and rewarding endevours while technology takes care of the rest.  </p>
@@ -897,6 +897,7 @@
 
     <!-- Portfolio Section Start -->
     <section class="bg-secondary py-[120px]">
+        <img src="{{asset('assets/images/skills.jpg')}}" alt="background loading" width="1000" height="300" class="bg1">
         <div class="container">
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12" data-aos="fade-up">

@@ -20,7 +20,7 @@
                     <!-- Card with border and shadow -->
                     <div class="rounded-[10px] overflow-hidden mb-6 bg-white border border-gray-200 shadow-lg hover:shadow-xl transition-all">
                         <!-- Image with border and rounded corners -->
-                        <img src="{{asset('assets/images/img3.jpg')}}" alt="project1" class="w-full h-[200px] object-cover rounded-t-[10px] border-b border-gray-200 transition-transform transform hover:scale-105">
+                        <img src="{{ Storage::url($project->image) }}" alt="project1" class="w-[10px] h-[10px] object-cover rounded-t-[10px] border-b border-gray-200 transition-transform transform hover:scale-105 height">
 
                         <div class="flex flex-wrap flex-col gap-3 p-4">
                             <!-- Tag buttons with custom background color, border, and hover effect -->
@@ -30,7 +30,7 @@
                             </div>
 
                             <!-- Project title and GitHub icon with hover effect -->
-                            <div class="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
+                            <div class="flex flex-wrap items-center justify-between text-white hover:text-orange group">
                                 <h4 class="font-bold font-Syne text-center leading-10 text-[16px] lg:text-[18px] xl:text-[20px] capitalize">
                                     <a class="transition-all text-gray-800 hover:text-blue-600" href="{{$project->project_url}}">
                                         {{$project->name_of_project}}</a>
